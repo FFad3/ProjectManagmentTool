@@ -7,19 +7,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{885FC963-5F7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7E391061-CA34-4712-9220-ECDFC56FA8ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMT.Tests.Unit", "PMT.Tests.Unit\PMT.Tests.Unit.csproj", "{4AF0674E-F162-4F86-93D8-232FEDC81118}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMT.Tests.Unit", "PMT.Tests.Unit\PMT.Tests.Unit.csproj", "{4AF0674E-F162-4F86-93D8-232FEDC81118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMT.Tests.Integration", "PMT.Tests.Integration\PMT.Tests.Integration.csproj", "{3A32D236-A3A4-405F-AE5D-A37EA4B7AEC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMT.Tests.Integration", "PMT.Tests.Integration\PMT.Tests.Integration.csproj", "{3A32D236-A3A4-405F-AE5D-A37EA4B7AEC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMT.Tests.Architecture", "PMT.Tests.Architecture\PMT.Tests.Architecture.csproj", "{A108F195-357C-4CC9-8F87-6DEBDCC6B181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMT.Tests.Architecture", "PMT.Tests.Architecture\PMT.Tests.Architecture.csproj", "{A108F195-357C-4CC9-8F87-6DEBDCC6B181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMT.Domain", "PMT.Domain\PMT.Domain.csproj", "{F60CFED6-43ED-4D43-A242-F7D174C32BA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMT.Domain", "PMT.Domain\PMT.Domain.csproj", "{F60CFED6-43ED-4D43-A242-F7D174C32BA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMT.Persistance", "PMT.Persistance\PMT.Persistance.csproj", "{BA53035F-2DA3-4ECC-9B76-6FA469CD4332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMT.Persistance", "PMT.Persistance\PMT.Persistance.csproj", "{BA53035F-2DA3-4ECC-9B76-6FA469CD4332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMT.Infrastructure", "PMT.Infrastructure\PMT.Infrastructure.csproj", "{16BDF24C-8F4C-4032-9308-ABBF588C6ECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMT.Infrastructure", "PMT.Infrastructure\PMT.Infrastructure.csproj", "{16BDF24C-8F4C-4032-9308-ABBF588C6ECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMT.Application", "PMT.Application\PMT.Application.csproj", "{E00361D4-1738-4CB3-B795-E84732076EB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMT.Application", "PMT.Application\PMT.Application.csproj", "{E00361D4-1738-4CB3-B795-E84732076EB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{E857104E-FC6C-4C80-B17B-705D56B16972}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMT.Specifitation", "Specification\PMT.Specifitation.csproj", "{9FFC4D7F-67DF-4B1C-A2DB-1191E3192DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMT.Identity", "PMT.Identity\PMT.Identity.csproj", "{FB57BD8B-16B9-48CB-9D62-93B58789E4E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +61,14 @@ Global
 		{E00361D4-1738-4CB3-B795-E84732076EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E00361D4-1738-4CB3-B795-E84732076EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E00361D4-1738-4CB3-B795-E84732076EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFC4D7F-67DF-4B1C-A2DB-1191E3192DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFC4D7F-67DF-4B1C-A2DB-1191E3192DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFC4D7F-67DF-4B1C-A2DB-1191E3192DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFC4D7F-67DF-4B1C-A2DB-1191E3192DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB57BD8B-16B9-48CB-9D62-93B58789E4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB57BD8B-16B9-48CB-9D62-93B58789E4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB57BD8B-16B9-48CB-9D62-93B58789E4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB57BD8B-16B9-48CB-9D62-93B58789E4E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +81,8 @@ Global
 		{BA53035F-2DA3-4ECC-9B76-6FA469CD4332} = {885FC963-5F7C-4F69-93B6-273688E0AAC6}
 		{16BDF24C-8F4C-4032-9308-ABBF588C6ECD} = {885FC963-5F7C-4F69-93B6-273688E0AAC6}
 		{E00361D4-1738-4CB3-B795-E84732076EB9} = {885FC963-5F7C-4F69-93B6-273688E0AAC6}
+		{9FFC4D7F-67DF-4B1C-A2DB-1191E3192DE1} = {E857104E-FC6C-4C80-B17B-705D56B16972}
+		{FB57BD8B-16B9-48CB-9D62-93B58789E4E6} = {885FC963-5F7C-4F69-93B6-273688E0AAC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {920E865C-228D-434C-AFCC-48792859E292}
