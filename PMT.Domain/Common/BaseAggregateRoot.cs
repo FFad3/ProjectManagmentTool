@@ -10,7 +10,7 @@ namespace PMT.Domain.Common
         {
         }
 
-        public BaseAggregateRoot(TId id) : base(id)
+        protected BaseAggregateRoot(TId id) : base(id)
         {
         }
 

@@ -2,7 +2,7 @@
 {
     public interface IBusinessRule
     {
-        bool IsValid();
+        bool IsFailed();
 
         string Message { get; }
     }
